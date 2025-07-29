@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Triassic – Amateur Paleontologist</title>
+    <!--
+      This site was created for the VRChat user “Triassic”.
+      It embraces the Frutiger Aero aesthetic with soft gradients, glassy
+      panels and smooth transitions. See style.css for the design details.
+    -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="navbar">
+      <div class="container nav-content">
+        <a href="#home" class="brand">Triassic</a>
+        <nav class="nav-links">
+          <a href="#about">About</a>
+          <a href="#interests">Interests</a>
+          <a href="#contact">Contact</a>
+        </nav>
+      </div>
+    </header>
+
+    <!-- Hero section -->
+    <section id="home" class="hero">
+      <!-- The background image is defined in CSS using the .hero class -->
+      <div class="hero-overlay">
+        <h1>Triassic</h1>
+        <p class="subtitle">Amateur Paleontologist &amp; Earth Science Student</p>
+        <a href="#about" class="btn btn-primary">Learn more</a>
+      </div>
+    </section>
+
+    <!-- About section -->
+    <section id="about" class="section section-glass">
+      <div class="container">
+        <h2>About</h2>
+        <p>
+          I'm currently studying Earth Science and spend my free time exploring
+          the history of our planet. As an amateur paleontologist I'm fascinated
+          by ancient life and the stories fossils can tell us. Beyond digging
+          through rocks, I enjoy a wide range of passions – from observing
+          animals and watching airplanes to losing myself in galaxies far,
+          far away. I also have a soft spot for the early 2000’s: the music,
+          games, and aesthetic of that era continue to inspire my creative
+          projects. You’ll often find me sketching paleo art or
+          reading up on the latest in space science while listening to old
+          Wii menu music.
+        </p>
+      </div>
+    </section>
+
+    <!-- Interests section -->
+    <section id="interests" class="section section-glass">
+      <div class="container">
+        <h2>Interests</h2>
+        <div class="interests-grid">
+          <!-- Each card uses an emoji as an icon and a brief description -->
+          <div class="card">
+            <div class="icon">🦕</div>
+            <h3>Dinosaurs</h3>
+            <p>Studying prehistoric creatures and their ancient ecosystems.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🐾</div>
+            <h3>Animals</h3>
+            <p>Observing the diversity of life and learning from living species.</p>
+          </div>
+          <div class="card">
+            <div class="icon">✈️</div>
+            <h3>Airplanes</h3>
+            <p>Appreciating flight engineering, from vintage planes to modern jets.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🌌</div>
+            <h3>Space Science</h3>
+            <p>Exploring the cosmos through astronomy and astrophysics.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🧑‍🎤</div>
+            <h3>Nostalgia</h3>
+            <p>Reliving early 2000’s music, games and digital culture.</p>
+          </div>
+          <div class="card">
+            <div class="icon">🎨</div>
+            <h3>Paleo Art</h3>
+            <p>Creating and appreciating artistic interpretations of prehistoric life.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Contact section -->
+    <section id="contact" class="section section-glass">
+      <div class="container">
+        <h2>Contact</h2>
+        <p>
+          Want to connect? Find me on VRChat or follow my adventures online.
+          You can also <a href="https://vrchat.com/home/user/usr_07fb0fe9-4eaf-4870-a76c-28b1e16875f2" target="_blank" rel="noopener">visit my VRChat profile</a>
+          to see what I’m up to in the metaverse.
+        </p>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+      <div class="container">
+        <p>
+          &copy; <span id="year"></span> Triassic. Built with passion and
+          nostalgia.
+        </p>
+      </div>
+    </footer>
+
+    <!-- Small script to update the year dynamically and enable smooth scrolling on older browsers -->
+    <script>
+      // Set the current year in the footer
+      document.getElementById('year').textContent = new Date().getFullYear();
+    </script>
+  </body>
+</html>
